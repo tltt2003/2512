@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.note {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nhanh {
+  cursor: pointer;
+}
+.note h1 {
+  display: none;
+}
+img:hover {
+  display: none;
+}
+
+.nhanh:hover .hihi {
+  display: inline-block !important;
+}
